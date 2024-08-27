@@ -53,3 +53,32 @@ const myFunction = function(){
 
 //Type of Datatype
 console.log(typeof outSideTemp);
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++ MEMORY
+
+// Stack (primitive) , Heap (non-primitive)
+
+let myYoutubeName = "madhurirathour"
+let anotherName = myYoutubeName
+
+anotherName = "DemoChannel"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    name:"demo",
+    email: "eurieu@gmail.com",
+    upiId: "1212axisbank"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "demo@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
