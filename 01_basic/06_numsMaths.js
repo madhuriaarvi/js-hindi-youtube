@@ -17,3 +17,18 @@ console.log(number5.toLocaleString("de-DE"));
 console.log(number5.toLocaleString("ja-JP", { style: "currency", currency: "EUR" }))
 
 
+//===================== MATHS =====================
+
+console.log(Math);
+console.log(Math.abs(-346537846)); //negative to positive
+console.log(Math.round(7769.876)); // ceil - top value , floor - bottom value
+
+
+console.log(Math.min(4,90,1,23));
+console.log(Math.random());
+
+console.log((Math.random() * 10) + 1);
+
+const min  = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1) + min))
